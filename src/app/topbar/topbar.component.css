@@ -1,0 +1,32 @@
+.topbar{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	background:#396dd8;
+}
+
+.topbar h1{
+	color:white;
+	padding:10px;
+	margin:0;
+	font-weight:100;
+}
+
+.topbar-right{
+	padding:10px;
+	display:flex;
+}
+
+.topbar button{
+        padding:10px 15px;
+        background: none;
+        background-color: white;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        color:#396dd8;
+        border-radius:2px;
+	display:flex;
+	align-items:center;
+}

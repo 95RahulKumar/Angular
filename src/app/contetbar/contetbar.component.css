@@ -1,0 +1,31 @@
+.content{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	padding:10px;
+}
+
+.content button{
+	padding:10px 20px;
+	background: none;
+	color: white;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	background-color:#396dd8;
+	border-radius:3px;
+}
+
+.content h2{
+	font-weight: 100;
+	color:#625268;
+}
+
+.content p{
+	color:#59575a;
+}
+
+.content h3{
+	color:#396dd8;
+}
