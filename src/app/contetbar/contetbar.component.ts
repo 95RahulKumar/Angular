@@ -7,8 +7,27 @@ import { Component } from '@angular/core';
 })
 export class ContetbarComponent {
   content_main_head ='Products';
-  content_head1 ="Phone XL";
-  content_head2 ="Phone Mini";
-  content_head3 ="Phone Standard";
-  button="Share";
+
+
+  Products:any[]= [
+  { 
+    "id":1,
+    "name":"Phone XL",
+    "Description":"A large phone with one of the best screens.",
+    "button":"share"
+  },
+  { 
+    "id":2,
+    "name":"Phone Mini",
+    "Description":"A great phone with one of the best cameras.",
+    "button":"share"
+  },
+  { 
+    "id":3,
+    "name":"Phone Standard",
+    "Description":"",
+    "button":"share"
+  }
+  ]
+    
 }

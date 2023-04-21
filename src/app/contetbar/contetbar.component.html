@@ -2,18 +2,9 @@
 	<div class="content-head">
 	<h2>{{content_main_head}}</h2>
 	</div>
-	<div class="content-1">
-		<h3> {{ content_head1 }}</h3>
-		<p>Description: A large phone with one of the best screens</p>
-		<button>{{button}}</button>
+	<div class="content-1" *ngFor="let product of Products" >
+		<h3> {{ product.name }}</h3>
+		<p>{{product.Description}}</p>
+		<button>{{product.button}}</button>
 	</div>
-	<div class="content-2">
-		<h3>{{ content_head2 }}</h3>
-        <p>Description: A great phone with one of the best cameras</p>
-        <button>{{button}}</button>
-    </div>
-    <div class="content-3">
-		<h3>{{ content_head3 }}</h3>
-    	<button>{{button}}</button>
-    </div>
 </div>
