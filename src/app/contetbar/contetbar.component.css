@@ -6,7 +6,7 @@
 }
 
 .content button{
-	padding:10px 20px;
+	padding:10px 10px;
 	background: none;
 	color: white;
 	border: none;
@@ -15,6 +15,35 @@
 	outline: inherit;
 	background-color:#396dd8;
 	border-radius:3px;
+	box-shadow: none;
+}
+
+.content .b2{
+	padding:10px 10px;
+	background: none;
+	color: white;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	background-color:#d83946;
+	border-radius:5px;
+	border: 1px dashed black;
+
+}
+
+.content .b1{
+	padding:10px 10px;
+	background: none;
+	color: rgb(0, 0, 0);
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	background-color:#ffff00;
+	border-radius:5px;
+	box-shadow: none;
+	border: 1px dashed;
 }
 
 .content h2{
